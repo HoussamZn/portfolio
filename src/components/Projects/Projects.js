@@ -11,6 +11,7 @@ import EFSA from "../../Assets/Projects/EFSA.png";
 import Audit from "../../Assets/Projects/Audit.png";
 
 
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -28,7 +29,8 @@ function Projects() {
               imgPath={FutureVision}
               title="Future Vision"
               description="Data Management and Processing Application : Design and development of a web application for importing, managing, and processing data (CSV, Excel, JSON…) and applying Machine Learning models using the Streamlit framework (Python)."
-              ghLink="https://github.com/HoussamZN/"
+              ghLink="https://github.com/HoussamZn/future-vision"
+              prvLink='https://future1vision.streamlit.app/'
             />
           </Col>
 
@@ -37,7 +39,7 @@ function Projects() {
               imgPath={FuzzyCBR}
               title="Performance evaluation of fuzzy clustered CBR"
               description="Fuzzy Clustered Case-Based Reasoning System: Development of a machine learning framework that enhances traditional Case-Based Reasoning (CBR) using fuzzy clustering. The system partitions a case base into overlapping fuzzy clusters to improve knowledge retrieval, reduce computational costs, and enhance decision-making accuracy."
-              ghLink="https://github.com/HoussamZN/"
+              ghLink="https://github.com/HoussamZn/fuzzy-cbr"
             />
           </Col>
           
@@ -46,7 +48,7 @@ function Projects() {
               imgPath={EFSA}
               title="Parkinson’s Disease Prediction with Machine Learning"
               description="This project uses vocal features and an Ensemble Feature Selection Algorithm (EFSA) to enhance Parkinson’s disease classification. Optimized models (Logistic Regression, Random Forest, LightGBM) are combined in a majority-vote ensemble, improving accuracy and robustness for early diagnosis, particularly in telemedicine."
-              ghLink="https://github.com/HoussamZN/"
+              ghLink="https://github.com/HoussamZn/machine-learning-parkinsons-disease-prediction"
             />
           </Col>
 
@@ -55,7 +57,7 @@ function Projects() {
               imgPath={Card}
               title="Moroccan card game"
               description="Design and development of a Moroccan card game in C++ using the Qt Framework."
-              ghLink="https://github.com/HoussamZN/"
+              ghLink="https://github.com/HoussamZn/Ronda-Game"
             />
           </Col>
 
@@ -64,7 +66,7 @@ function Projects() {
               imgPath={FSTlink}
               title="FSTLink"
               description="Dynamic Web Platform - Professional Network : Design and development of a dynamic website as part of professional network platforms using the Django framework (HTML, CSS, JavaScript, Python) and the SQLite database management system."
-              ghLink="https://github.com/HoussamZN/"
+              ghLink="https://github.com/HoussamZn/fstlink"
             />
           </Col>
 
