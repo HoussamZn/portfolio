@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1d359011.css",
+    "main.js": "/portfolio/static/js/main.0bddeeca.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Audit.png": "/portfolio/static/media/Audit.7b18bff1f0d19d4be345.png",
+    "static/media/EFSA.png": "/portfolio/static/media/EFSA.0b44c4e99c1f3334e3ba.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.46f8ea36137bb2d8d179.png",
+    "static/media/avatar3.png": "/portfolio/static/media/avatar3.aecca43187752457d764.png",
+    "static/media/CARDS.png": "/portfolio/static/media/CARDS.8a755d5d4c9fb1e80fb6.png",
+    "static/media/CV_Houssam_Zitan.pdf": "/portfolio/static/media/CV_Houssam_Zitan.bcf593270c4aed76827a.pdf",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.c1857ac48fef861aaf5d.jpg",
+    "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/FSTlink.jpg": "/portfolio/static/media/FSTlink.079454f8f8206ca8f909.jpg",
+    "static/media/FutureVision.jpg": "/portfolio/static/media/FutureVision.0c32a116274f7e70b07c.jpg",
+    "static/media/FuzzyCBR.jpg": "/portfolio/static/media/FuzzyCBR.cd56cb31879375d866a3.jpg",
+    "static/media/Calender.png": "/portfolio/static/media/Calender.34ac929bf4fb90464394.png",
+    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio/index.html",
+    "main.1d359011.css.map": "/portfolio/static/css/main.1d359011.css.map",
+    "main.0bddeeca.js.map": "/portfolio/static/js/main.0bddeeca.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d359011.css",
+    "static/js/main.0bddeeca.js"
+  ]
+}
