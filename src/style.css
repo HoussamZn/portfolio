@@ -1,56 +1,58 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(15, 15, 15, 0.8),
+    rgba(10, 10, 10, 0.9)
   );
 
   --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(20, 20, 20, 0.9)
   );
 
   --imp-text-color: var(--text);
 }
 
-:root{
-  --text : #c770f0;
-  --backgroundloader : #0c0513;
-  --stikcynavbar : #0a0910d2;
-  --navbarshadow: rgba(9, 5, 29, 0.171);
-  --navbaritemunderline : #c95bf5;
-  --navtoggler : #be50f4;
-  --mobilenavbar : #181a27;
-  --navbarlink : white;
-  --homedeftext : whitesmoke;
-  --mainnametext : #cd5ff8;
-  --maintypewritter : #be6adf;
-  --maintypewrittercursor : #b562d6;
-  --homeabouttext : white;
-  --socialhighlight : #87209e;
-  --socialicon : #700c86;
-  --socialiconbg : rgba(255, 255, 255, 0.972);
-  --footer : rgb(10, 4, 22);
-  --footertext : white;
-  --quote : #a588c0;
-  --cardlight : rgba(119, 53, 136, 0.459);
-  --cardtext : white;
-  --cardlighthover: rgba(129, 72, 144, 0.561);
-  --gitbticon : white;
-  --gitbt : #934cce5e;
-  --gitbthover : #a24dd386;
-  --projectdeftext : white;
-  --aboutcardicons : white;
-  --aboutcardborder : rgba(200, 137, 230, 0.637);
-  --aboutcardlight : rgba(89, 4, 168, 0.137);
-  --aboutcardborderhover : rgba(197, 115, 230, 0.883) ;
-  --aboutdeftext : white;
+:root {
+  --text: white;
+  --backgroundloader: black;
+  --stikcynavbar: rgba(20, 20, 20, 0.9);
+  --navbarshadow: rgba(0, 0, 0, 0.2);
+  --navbaritemunderline: #a8d0c6;
+  --navtoggler: white;
+  --mobilenavbar: #121212;
+  --navbarlink: white;
+  --homedeftext: white;
+  --mainnametext: lightgray;
+  --maintypewritter: #a8d0c6;
+  --maintypewrittercursor: #a81c1c;
+  --homeabouttext: white;
+  --socialhighlight: gray;
+  --socialicon: white;
+  --socialiconbg: black;
+  --footer: rgb(10, 10, 10);
+  --footertext: white;
+  --quote: lightgray;
+  --cardlight: rgba(100, 100, 100, 0.2);
+  --cardtext: white;
+  --cardlighthover: rgba(150, 150, 150, 0.3);
+  --gitbticon: white;
+  --gitbt: rgba(50, 50, 50, 0.5);
+  --gitbthover: rgba(80, 80, 80, 0.7);
+  --projectdeftext: white;
+  --aboutcardicons: white;
+  --aboutcardiconshover : #a81c1c;
+  --aboutcardborder: rgba(100, 100, 100, 0.6);
+  --aboutcardlight: rgba(50, 50, 50, 0.2);
+  --aboutcardlighhover : rgba(168, 28, 28, 0.1);
+  --aboutcardborderhover: rgba(168, 28, 28, 0.8);
+  --aboutdeftext: white;
 
-  --scrollbartrack : #2d1950;
-  --scrollbarthumbhover : rgba(222, 130, 235, 0.911);
-  --scrollbarthumb : rgba(178, 121, 216, 0.959);
- }
+  --scrollbartrack: #333;
+  --scrollbarthumbhover: #666;
+  --scrollbarthumb: #555;
+}
 
 .purple {
   color: var(--imp-text-color) !important;
@@ -547,7 +549,7 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
+  opacity: 0.9 !important;
   border-radius: 10px !important;
 }
 
@@ -616,6 +618,10 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid var(--aboutcardborderhover) !important;
+  box-shadow: 4px 5px 4px 3px var(--aboutcardlighhover) !important;
+
+  color : var(--aboutcardiconshover)
+
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -785,7 +791,7 @@ button:focus {
 
 
 .copy-message {
-  color: #c95bf5;
+  color: #a81c1c;
   margin-top: 5px;
   font-size: 1.2em;
   animation: fadeInOut 2s ease-in-out; /* Animation */
