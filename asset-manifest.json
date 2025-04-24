@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7e37d686.css",
-    "main.js": "/portfolio/static/js/main.5b77a869.js",
+    "main.js": "/portfolio/static/js/main.e2deae2b.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/about.png": "/portfolio/static/media/about.98b276ddc70b8f49f991.png",
@@ -11,7 +11,6 @@
     "static/media/avatar3.png": "/portfolio/static/media/avatar3.cd97e5955bd366200681.png",
     "static/media/CARDS.png": "/portfolio/static/media/CARDS.8a755d5d4c9fb1e80fb6.png",
     "static/media/Facial.png": "/portfolio/static/media/Facial.4191d99cde5bede488c9.png",
-    "static/media/CV_Houssam_Zitan.pdf": "/portfolio/static/media/CV_Houssam_Zitan.8da6ff25173f5bf61075.pdf",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.84d0decad1b10a73e471.jpg",
     "static/media/Fintech.png": "/portfolio/static/media/Fintech.8b9340d2ddd5c99bca9e.png",
     "static/media/FSTlink.jpg": "/portfolio/static/media/FSTlink.079454f8f8206ca8f909.jpg",
@@ -21,12 +20,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.6287868a60fd7847fedf.svg",
     "index.html": "/portfolio/index.html",
     "main.7e37d686.css.map": "/portfolio/static/css/main.7e37d686.css.map",
-    "main.5b77a869.js.map": "/portfolio/static/js/main.5b77a869.js.map",
+    "main.e2deae2b.js.map": "/portfolio/static/js/main.e2deae2b.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e37d686.css",
-    "static/js/main.5b77a869.js"
+    "static/js/main.e2deae2b.js"
   ]
 }
