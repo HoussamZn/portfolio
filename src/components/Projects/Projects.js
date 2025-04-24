@@ -5,10 +5,13 @@ import Particle from "../Particle";
 import FutureVision from "../../Assets/Projects/FutureVision.jpg";
 import FuzzyCBR from "../../Assets/Projects/FuzzyCBR.jpg";
 import Card from "../../Assets/Projects/CARDS.png";
+import Facial from "../../Assets/Projects/Facial.png";
 import FSTlink from "../../Assets/Projects/FSTlink.jpg";
 import Calender from "../../Assets/Projects/Calender.png";
 import EFSA from "../../Assets/Projects/EFSA.png";
 import Audit from "../../Assets/Projects/Audit.png";
+import Fintech from "../../Assets/Projects/Fintech.png";
+
 
 
 
@@ -31,6 +34,24 @@ function Projects() {
               description="Data Management and Processing Application : Design and development of a web application for importing, managing, and processing data (CSV, Excel, JSON…) and applying Machine Learning models using the Streamlit framework (Python)."
               ghLink="https://github.com/HoussamZn/future-vision"
               prvLink='https://future1vision.streamlit.app/'
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Facial}
+              title="Facial expression detection"
+              description="Design of a CNN model for automatic emotion recognition from facial images, with data preprocessing including grayscale conversion, resizing, and normalization. The model is evaluated using classification metrics and implemented with TensorFlow/Keras. Deployed in an interactive Streamlit application enabling real-time emotion detection from webcam input, as well as analysis of uploaded images or videos."
+              ghLink="https://github.com/HoussamZn/Facial-Emotion-Recognition"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Fintech}
+              title="Fintech Platform"
+              description="Financial platform composed of containerized microservices (Docker, Kubernetes) for managing accounts, users, banking transactions, and blockchain services. Integration of a real-time notification system via Kafka and a JWT authentication module. Frontend developed with React + Web3.js, enabling interaction with a MetaMask wallet and the Sepolia blockchain network. Automated deployment using Jenkins (CI/CD) and GitHub."
+              ghLink="https://github.com/HoussamZn/FinTech"
             />
           </Col>
 
