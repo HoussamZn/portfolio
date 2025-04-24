@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "../../Assets/CV_Houssam_Zitan.pdf";
+const pdf = `${process.env.PUBLIC_URL}/CV_Houssam_Zitan.pdf`;
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
