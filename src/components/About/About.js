@@ -32,7 +32,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 style={{ marginBottom: "40px" }} className="project-heading">
           <strong className="purple">Technologies</strong> I use
         </h1>
         <Techs />
