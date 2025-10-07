@@ -12,6 +12,7 @@ import Calender from "../../Assets/Projects/Calender.png";
 import EFSA from "../../Assets/Projects/EFSA.png";
 import Audit from "../../Assets/Projects/Audit.png";
 import Fintech from "../../Assets/Projects/Fintech.png";
+import PnC from "../../Assets/Projects/PACKnCECK.png";
 
 
 
@@ -28,6 +29,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PnC}
+              title="Pack and Check"
+              description="Intelligent platform for optimizing and verifying KLT pallet packing, built with FastAPI microservices and a React-based 3D visualization interface (Three.js). Integration of computer vision models (YOLO) for KLT and pallet detection, and genetic algorithms for packing optimization. Real-time 3D animation of packing stages, automated verification of correct KLT placement, and intuitive interface for dimension input and multi-stage visualization."
+              ghLink="https://github.com/HoussamZn/Pack-and-Check"
+              techs="Computer Vision - YOLO - Genetic and Greedy Algorithm - ThreeJS"
+            />
+          </Col>
 
 
           <Col md={4} className="project-card">

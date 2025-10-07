@@ -19,14 +19,17 @@ import { PiMicrosoftPowerpointLogoFill } from "react-icons/pi";
 import { FaProjectDiagram } from "react-icons/fa";
 import { BsBarChartLine } from "react-icons/bs";
 import { MdOutlineBarChart } from "react-icons/md";
-import { SiApachekafka, SiApachehadoop, SiApachespark } from "react-icons/si";
+import { SiApachekafka, SiApachehadoop, SiApachespark,SiPytorch,SiOpencv } from "react-icons/si";
+
 
 const techCategories = [
   {
     title: "Machine Learning & Deep Learning",
     items: [
       { icon: SiScikitlearn, name: "Scikit-learn" },
-      { icon: SiTensorflow, name: "TensorFlow" }
+      { icon: SiTensorflow, name: "TensorFlow" },
+      { icon: SiPytorch, name: "PyTorch" }
+
     ]
   },
   {
@@ -34,6 +37,7 @@ const techCategories = [
     items: [
       { icon: SiNumpy, name: "NumPy" },
       { icon: SiPandas, name: "Pandas" },
+      { icon: SiOpencv, name: "OpenCV" },
       { icon: PiMicrosoftPowerpointLogoFill, name: "Power BI" },
       { icon: FaProjectDiagram, name: "Talend" },
       { icon: BsBarChartLine, name: "Seaborn" },
