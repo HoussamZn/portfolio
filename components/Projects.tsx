@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Selected <span className="text-primary italic">Project</span>
+          Selected <span className="text-primary italic">Projects</span>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
