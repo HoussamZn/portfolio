@@ -27,15 +27,14 @@ Instructions:
 `;
 
 let chatSession: Chat | null = null;
+const res = await fetch(process.env.API_KEY);
+  const { geminiKey } = await res.json();
 
-export const getChatSession = (): Chat => {
+export const getChatSession = async (): Promise<Chat> => {
   if (chatSession) return chatSession;
-
-  const apiKey = process.env.API_KEY;
+  const apiKey = geminiKey;
   if (!apiKey) {
     console.warn("API_KEY not found in environment variables");
-    // We will return a dummy session or handle error in UI, but here we can't do much without a key.
-    // The UI should handle the missing key state.
     throw new Error("API Key missing");
   }
 
@@ -54,7 +53,7 @@ export const getChatSession = (): Chat => {
 
 export const sendMessageToGemini = async (message: string): Promise<string> => {
   try {
-    const chat = getChatSession();
+    const chat = await getChatSession();
     const result: GenerateContentResponse = await chat.sendMessage({ message });
     return result.text || "I didn't catch that.";
   } catch (error) {
