@@ -208,9 +208,6 @@ const Hero: React.FC = () => {
                  <div className="whitespace-pre pl-8 mt-1">
                     <span className="text-sky-300">self</span>.<span className="text-slate-200">degree</span> <span className="text-purple-400">=</span> <span className="text-green-400">"{PERSONAL_INFO.degree}"</span>
                  </div>
-                 <div className="whitespace-pre pl-8 mt-1">
-                    <span className="text-sky-300">self</span>.<span className="text-slate-200">objective</span> <span className="text-purple-400">=</span> <span className="text-green-400">"{PERSONAL_INFO.objective}"</span>
-                 </div>
                  
                  <div className="whitespace-pre pl-4 mt-3">
                     <span className="text-purple-400">def</span> <span className="text-blue-400">mission</span>(<span className="text-orange-300">self</span>):
