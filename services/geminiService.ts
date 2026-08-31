@@ -42,7 +42,7 @@ export const getChatSession = async (): Promise<Chat> => {
   const ai = new GoogleGenAI({ apiKey });
   
   chatSession = ai.chats.create({
-    model: 'gemini-2.5-pro',
+    model: 'gemini-3.1-pro-preview',
     config: {
       systemInstruction: PORTFOLIO_CONTEXT,
       temperature: 0.7,
