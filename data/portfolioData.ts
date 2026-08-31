@@ -18,10 +18,23 @@ export const PERSONAL_INFO = {
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: '0',
+    role: "Artificial Intelligence Engineer Intern",
+    company: "Expleo Group",
+    period: "February 2026 – August 2026",
+    type: "work",
+    description: [
+      "Designed anddeveloped a scalable AI-powered E-learning platform integrating course management, learner analytics, secure assessments, and multimodal RAG assistance.",
+      "Built a multimodal RAG assistant and an AI-based open-answer evaluation pipeline, achieving 93% Recall@5 in document retrieval and 98.32% query-routing accuracy.",
+      "Technologies : Django REST, FastAPI, ReactJS, PostgreSQL, Celery, Redis, Qdrant, vLLM, RAG, Docker."
+    ],
+    loc : "Tangier"
+  },
+  {
     id: '1',
     role: "Master of  Science and Technology : Artificial Intelligence and Data Science",
     company: "Faculty of Sciences and Technologies Tangier",
-    period: "2024 - Present",
+    period: "2024 - 2026",
     type: "education",
     description: [
     ]
@@ -139,7 +152,7 @@ export const PROJECTS: Project[] = [
     id: 'p7',
     title: "Fintech Platform",
     description: "A modular financial platform built around distributed microservices, featuring secure user and account management, real-time transaction processing, blockchain integration, and live notifications.",
-    tags: ["Docker", "FastAPI", "Microservices", "Docker","Kubernetes","Kafka","Jenkins","CI/CD","GitHub webhooks"],
+    tags: ["Docker", "FastAPI", "Microservices","Kubernetes","Kafka","Jenkins","CI/CD","GitHub webhooks"],
     github: "https://github.com/HoussamZn/FinTech",
     image: "Fintech.png"
   },
