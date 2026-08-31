@@ -27,11 +27,12 @@ Instructions:
 `;
 
 let chatSession: Chat | null = null;
-const res = await fetch(process.env.API_KEY);
-  const { geminiKey } = await res.json();
 
 export const getChatSession = async (): Promise<Chat> => {
   if (chatSession) return chatSession;
+  const res = await fetch(process.env.API_KEY);
+  const { geminiKey } = await res.json();
+
   const apiKey = geminiKey;
   if (!apiKey) {
     console.warn("API_KEY not found in environment variables");
@@ -41,7 +42,7 @@ export const getChatSession = async (): Promise<Chat> => {
   const ai = new GoogleGenAI({ apiKey });
   
   chatSession = ai.chats.create({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-2.5-pro',
     config: {
       systemInstruction: PORTFOLIO_CONTEXT,
       temperature: 0.7,
